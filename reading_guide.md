@@ -1,4 +1,4 @@
-# Supervisor Reading Guide
+# Reading Guide
 
 ## Recommended Reading Order
 
