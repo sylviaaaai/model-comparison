@@ -1,0 +1,41 @@
+{
+  "source_dir": "results/splits",
+  "seed": 123,
+  "split": "existing train kept as 80%; existing test split 50/50 into final val/test",
+  "final_train": {
+    "patients": 1080,
+    "images": 2260,
+    "patient_counts": {
+      "Benign": 537,
+      "Cancer": 543
+    },
+    "image_counts": {
+      "Benign": 1125,
+      "Cancer": 1135
+    }
+  },
+  "final_val": {
+    "patients": 135,
+    "images": 280,
+    "patient_counts": {
+      "Benign": 67,
+      "Cancer": 68
+    },
+    "image_counts": {
+      "Benign": 134,
+      "Cancer": 146
+    }
+  },
+  "final_test": {
+    "patients": 135,
+    "images": 290,
+    "patient_counts": {
+      "Benign": 67,
+      "Cancer": 68
+    },
+    "image_counts": {
+      "Benign": 143,
+      "Cancer": 147
+    }
+  }
+}

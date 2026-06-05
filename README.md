@@ -20,6 +20,10 @@ The full comparison tables are in `summary/four_model_comparison_tables/`.
 ```text
 model-comparison-repo/
 ├── data_splits/
+│   ├── README.md
+│   ├── code/
+│   ├── folds/
+│   ├── final_80_10_10/
 │   ├── split_summary.json
 │   ├── train_patients.csv
 │   └── test_patients.csv
@@ -40,6 +44,8 @@ Each model folder contains:
 - `final_results/`: final test-set metrics, training log, resource table, and explainability outputs.
 
 For ResNet50, `models/resnet50/selection_process/` includes the full selection chain: the preprocessed all-strategy run, the dropout 0.3 follow-up, and the dropout 0.4 final validation check.
+
+The data split code and the patient-level split rationale are documented in `data_splits/README.md`.
 
 ## Included Results
 
