@@ -4,6 +4,8 @@ This repository contains the final four-model comparison package for the image c
 
 Only the final selected models, their training/selection process records, explainability figures, and summary result tables are included. Earlier discarded runs such as smoke tests and non-final batch-size trials are intentionally excluded.
 
+For a quick review path, see `reading_guide.md`.
+
 ## Final Models
 
 | Model | Final setting | Validation AUC | Test AUC | Accuracy | F1 |
@@ -46,6 +48,8 @@ Each model folder contains:
 For ResNet50, `models/resnet50/selection_process/` includes the full selection chain: the preprocessed all-strategy run, the dropout 0.3 follow-up, and the dropout 0.4 final validation check.
 
 The data split code and the patient-level split rationale are documented in `data_splits/README.md`.
+
+Core Python dependencies are listed in `requirements.txt`.
 
 ## Included Results
 
