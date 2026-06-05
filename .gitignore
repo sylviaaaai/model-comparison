@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Large trained model artifacts
+*.pt
+*.pth
+*.keras
+*.h5
+*.ckpt
+
+# Local plotting/cache files
+.matplotlib/

@@ -1,0 +1,13 @@
+[
+  {
+    "unfreeze_name": "conv3_5",
+    "unfreeze_label": "conv3-5",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7336710793144773,
+    "std_val_auc": 0.0355630574863025,
+    "min_val_auc": 0.6882262408618699,
+    "max_val_auc": 0.7831168831168831,
+    "trainable_base_layers": 94,
+    "description": "Unfreeze ResNet50 conv3 through conv5 blocks."
+  }
+]

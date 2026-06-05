@@ -1,0 +1,3 @@
+| Model | Accuracy | AUC | Precision | Recall | F1 |
+| --- | --- | --- | --- | --- | --- |
+| ConvNeXt-Base-Stage 3-4 (dropout=0.4) | 0.7276 | 0.7910 | 0.7464 | 0.7007 | 0.7228 |

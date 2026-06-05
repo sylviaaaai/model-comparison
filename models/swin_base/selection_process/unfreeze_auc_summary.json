@@ -1,0 +1,57 @@
+[
+  {
+    "unfreeze_name": "head_only",
+    "unfreeze_label": "Head only",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7065303153453815,
+    "std_val_auc": 0.01823758572704941,
+    "min_val_auc": 0.6830727846867568,
+    "max_val_auc": 0.7297000942615854,
+    "trainable_base_layers": 2,
+    "description": "Swin Transformer frozen; train classifier head only."
+  },
+  {
+    "unfreeze_name": "stage4",
+    "unfreeze_label": "Stage 4",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7349520460524696,
+    "std_val_auc": 0.03395652160006183,
+    "min_val_auc": 0.6978480371135628,
+    "max_val_auc": 0.7821980262778216,
+    "trainable_base_layers": 21,
+    "description": "Unfreeze Swin stage 4, matching a ResNet conv5-style setting."
+  },
+  {
+    "unfreeze_name": "stage3_4",
+    "unfreeze_label": "Stage 3-4",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7833955424473762,
+    "std_val_auc": 0.037137638893608355,
+    "min_val_auc": 0.7468129897469884,
+    "max_val_auc": 0.8263855491218284,
+    "trainable_base_layers": 184,
+    "description": "Unfreeze Swin stages 3 and 4, matching a ResNet conv4-5-style setting."
+  },
+  {
+    "unfreeze_name": "stage2_4",
+    "unfreeze_label": "Stage 2-4",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7845697578388168,
+    "std_val_auc": 0.037344557745354195,
+    "min_val_auc": 0.7555699889781138,
+    "max_val_auc": 0.8281553584825809,
+    "trainable_base_layers": 203,
+    "description": "Unfreeze Swin stages 2 through 4, matching a ResNet conv3-5-style setting."
+  },
+  {
+    "unfreeze_name": "all_non_norm",
+    "unfreeze_label": "All non-Norm",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7836815800815203,
+    "std_val_auc": 0.0369119143335706,
+    "min_val_auc": 0.7494095418044402,
+    "max_val_auc": 0.8282900178904642,
+    "trainable_base_layers": 223,
+    "description": "Unfreeze all non-normalization Swin backbone parameters."
+  }
+]

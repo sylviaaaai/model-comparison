@@ -1,0 +1,6 @@
+unfreeze_name,unfreeze_label,folds_completed,mean_val_auc,std_val_auc,min_val_auc,max_val_auc,trainable_base_layers,description
+head_only,Head only,5,0.7065303153453815,0.01823758572704941,0.6830727846867568,0.7297000942615854,2,Swin Transformer frozen; train classifier head only.
+stage4,Stage 4,5,0.7349520460524696,0.03395652160006183,0.6978480371135628,0.7821980262778216,21,"Unfreeze Swin stage 4, matching a ResNet conv5-style setting."
+stage3_4,Stage 3-4,5,0.7833955424473762,0.037137638893608355,0.7468129897469884,0.8263855491218284,184,"Unfreeze Swin stages 3 and 4, matching a ResNet conv4-5-style setting."
+stage2_4,Stage 2-4,5,0.7845697578388168,0.037344557745354195,0.7555699889781138,0.8281553584825809,203,"Unfreeze Swin stages 2 through 4, matching a ResNet conv3-5-style setting."
+all_non_norm,All non-Norm,5,0.7836815800815203,0.0369119143335706,0.7494095418044402,0.8282900178904642,223,Unfreeze all non-normalization Swin backbone parameters.

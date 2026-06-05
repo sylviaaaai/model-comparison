@@ -1,0 +1,57 @@
+[
+  {
+    "unfreeze_name": "head_only",
+    "unfreeze_label": "Head only",
+    "folds_completed": 5,
+    "mean_val_auc": 0.6997403096835937,
+    "std_val_auc": 0.01618157756870547,
+    "min_val_auc": 0.6848403232012312,
+    "max_val_auc": 0.7260065790739278,
+    "trainable_base_layers": 4,
+    "description": "ConvNeXt frozen; train classifier head only."
+  },
+  {
+    "unfreeze_name": "stage4",
+    "unfreeze_label": "Stage 4",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7424257733201477,
+    "std_val_auc": 0.02441489316522019,
+    "min_val_auc": 0.7136953725000975,
+    "max_val_auc": 0.7769655464286401,
+    "trainable_base_layers": 29,
+    "description": "Unfreeze ConvNeXt stage 4, matching a ResNet conv5-style setting."
+  },
+  {
+    "unfreeze_name": "stage3_4",
+    "unfreeze_label": "Stage 3-4",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7883317687660998,
+    "std_val_auc": 0.03086550929332778,
+    "min_val_auc": 0.7568710771509883,
+    "max_val_auc": 0.8262581168831169,
+    "trainable_base_layers": 222,
+    "description": "Unfreeze ConvNeXt stages 3 and 4, matching a ResNet conv4-5-style setting."
+  },
+  {
+    "unfreeze_name": "stage2_4",
+    "unfreeze_label": "Stage 2-4",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7878115684439958,
+    "std_val_auc": 0.03219999770753647,
+    "min_val_auc": 0.7564422439670968,
+    "max_val_auc": 0.8260349025974026,
+    "trainable_base_layers": 247,
+    "description": "Unfreeze ConvNeXt stages 2 through 4, matching a ResNet conv3-5-style setting."
+  },
+  {
+    "unfreeze_name": "all_non_norm",
+    "unfreeze_label": "All non-Norm",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7890477034168887,
+    "std_val_auc": 0.03135906189455633,
+    "min_val_auc": 0.7605941288838641,
+    "max_val_auc": 0.8254058441558442,
+    "trainable_base_layers": 272,
+    "description": "Unfreeze all non-normalization ConvNeXt backbone parameters."
+  }
+]

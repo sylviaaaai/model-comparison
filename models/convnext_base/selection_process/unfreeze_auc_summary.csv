@@ -1,0 +1,6 @@
+unfreeze_name,unfreeze_label,folds_completed,mean_val_auc,std_val_auc,min_val_auc,max_val_auc,trainable_base_layers,description
+head_only,Head only,5,0.6997403096835937,0.01618157756870547,0.6848403232012312,0.7260065790739278,4,ConvNeXt frozen; train classifier head only.
+stage4,Stage 4,5,0.7424257733201477,0.02441489316522019,0.7136953725000975,0.7769655464286401,29,"Unfreeze ConvNeXt stage 4, matching a ResNet conv5-style setting."
+stage3_4,Stage 3-4,5,0.7883317687660998,0.03086550929332778,0.7568710771509883,0.8262581168831169,222,"Unfreeze ConvNeXt stages 3 and 4, matching a ResNet conv4-5-style setting."
+stage2_4,Stage 2-4,5,0.7878115684439958,0.03219999770753647,0.7564422439670968,0.8260349025974026,247,"Unfreeze ConvNeXt stages 2 through 4, matching a ResNet conv3-5-style setting."
+all_non_norm,All non-Norm,5,0.7890477034168887,0.03135906189455633,0.7605941288838641,0.8254058441558442,272,Unfreeze all non-normalization ConvNeXt backbone parameters.

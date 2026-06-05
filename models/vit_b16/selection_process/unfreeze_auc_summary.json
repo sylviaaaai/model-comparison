@@ -1,0 +1,79 @@
+[
+  {
+    "unfreeze_name": "head_only",
+    "unfreeze_label": "Head only",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7161273336561267,
+    "std_val_auc": 0.020661196092532644,
+    "min_val_auc": 0.6949788380146209,
+    "max_val_auc": 0.7415885962718581,
+    "trainable_base_layers": 2,
+    "description": "ViT-B/16 frozen; train classifier head only."
+  },
+  {
+    "unfreeze_name": "last_2_blocks",
+    "unfreeze_label": "Last 2 blocks",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7522132469272054,
+    "std_val_auc": 0.029776337986146532,
+    "min_val_auc": 0.7170524326877658,
+    "max_val_auc": 0.7836647727272728,
+    "trainable_base_layers": 26,
+    "description": "Unfreeze the last 2 ViT transformer blocks."
+  },
+  {
+    "unfreeze_name": "last_4_blocks",
+    "unfreeze_label": "Last 4 blocks",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7532638337329134,
+    "std_val_auc": 0.03073962283163885,
+    "min_val_auc": 0.7219335537710596,
+    "max_val_auc": 0.7881038031664198,
+    "trainable_base_layers": 50,
+    "description": "Unfreeze the last 4 ViT transformer blocks."
+  },
+  {
+    "unfreeze_name": "last_6_blocks",
+    "unfreeze_label": "Last 6 blocks",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7682315427993046,
+    "std_val_auc": 0.02794635392416171,
+    "min_val_auc": 0.7360061407652339,
+    "max_val_auc": 0.799453667545159,
+    "trainable_base_layers": 74,
+    "description": "Unfreeze the last 6 ViT transformer blocks."
+  },
+  {
+    "unfreeze_name": "last_8_blocks",
+    "unfreeze_label": "Last 8 blocks",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7755910439240805,
+    "std_val_auc": 0.03435740290958987,
+    "min_val_auc": 0.7485238545111007,
+    "max_val_auc": 0.821956168831169,
+    "trainable_base_layers": 98,
+    "description": "Unfreeze the last 8 ViT transformer blocks."
+  },
+  {
+    "unfreeze_name": "last_10_blocks",
+    "unfreeze_label": "Last 10 blocks",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7732913061257458,
+    "std_val_auc": 0.026890858171327973,
+    "min_val_auc": 0.7508674125765077,
+    "max_val_auc": 0.8046861473943404,
+    "trainable_base_layers": 122,
+    "description": "Unfreeze the last 10 ViT transformer blocks."
+  },
+  {
+    "unfreeze_name": "all_blocks",
+    "unfreeze_label": "All blocks",
+    "folds_completed": 5,
+    "mean_val_auc": 0.780349689414502,
+    "std_val_auc": 0.02861086724912123,
+    "min_val_auc": 0.7576312814315231,
+    "max_val_auc": 0.8180194805194806,
+    "trainable_base_layers": 146,
+    "description": "Unfreeze all ViT transformer blocks; keep patch embedding frozen."
+  }
+]

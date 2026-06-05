@@ -1,0 +1,8 @@
+unfreeze_name,unfreeze_label,folds_completed,mean_val_auc,std_val_auc,min_val_auc,max_val_auc,trainable_base_layers,description
+head_only,Head only,5,0.7161273336561267,0.020661196092532644,0.6949788380146209,0.7415885962718581,2,ViT-B/16 frozen; train classifier head only.
+last_2_blocks,Last 2 blocks,5,0.7522132469272054,0.029776337986146532,0.7170524326877658,0.7836647727272728,26,Unfreeze the last 2 ViT transformer blocks.
+last_4_blocks,Last 4 blocks,5,0.7532638337329134,0.03073962283163885,0.7219335537710596,0.7881038031664198,50,Unfreeze the last 4 ViT transformer blocks.
+last_6_blocks,Last 6 blocks,5,0.7682315427993046,0.02794635392416171,0.7360061407652339,0.799453667545159,74,Unfreeze the last 6 ViT transformer blocks.
+last_8_blocks,Last 8 blocks,5,0.7755910439240805,0.03435740290958987,0.7485238545111007,0.821956168831169,98,Unfreeze the last 8 ViT transformer blocks.
+last_10_blocks,Last 10 blocks,5,0.7732913061257458,0.026890858171327973,0.7508674125765077,0.8046861473943404,122,Unfreeze the last 10 ViT transformer blocks.
+all_blocks,All blocks,5,0.780349689414502,0.02861086724912123,0.7576312814315231,0.8180194805194806,146,Unfreeze all ViT transformer blocks; keep patch embedding frozen.

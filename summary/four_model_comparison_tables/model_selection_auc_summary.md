@@ -1,0 +1,7 @@
+| Model | Best Setting | Best Label | Mean Val AUC | Std Val AUC | Folds | Source |
+| --- | --- | --- | --- | --- | --- | --- |
+| ResNet50 | conv3_5 | conv3-5 | 0.7337 | 0.0356 | 5 | results/resnet50_vit_b16_comparison/source_results/resnet50_unfreeze_auc_summary.csv |
+| ViT-B/16 | all_blocks | All blocks | 0.7803 | 0.0286 | 5 | VIT/results/vit_b16_torch_unfreeze_5fold_dropout04/unfreeze_auc_summary.csv |
+| ConvNeXt-Base | all_non_norm | All non-Norm | 0.7890 | 0.0314 | 5 | ConvNeXt/results/convnext_base_torch_unfreeze_5fold_dropout04/unfreeze_auc_summary.csv |
+| Swin-Base bs16 | stage2_4 | Stage 2-4 | 0.7846 | 0.0373 | 5 | Swin/results/swin_base_torch_unfreeze_5fold_dropout04_bs16/unfreeze_auc_summary.csv |
+| Swin-Base bs32 | stage3_4 | Stage 3-4 | 0.7848 | 0.0361 | 5 | Swin/results/swin_base_torch_unfreeze_5fold_dropout04_bs32/unfreeze_auc_summary.csv |

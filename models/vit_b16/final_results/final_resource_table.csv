@@ -1,0 +1,2 @@
+Model,Total Params,Trainable Params,Non-Trainable Params,Model Size (MB),Training Time (s),Avg Epoch Time (s),Test Inference Time (s),Test ms/step
+ViT-B/16-All blocks (dropout=0.4),85799425,85055233,744192,327.36,60.77,3.38,2.65,139.26

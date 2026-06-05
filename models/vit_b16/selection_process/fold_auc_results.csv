@@ -1,0 +1,36 @@
+unfreeze_name,unfreeze_label,fold,val_auc,best_history_val_auc,last_history_val_auc,trainable_base_layers,unfrozen_blocks,train_images,val_images,positive_class,run_seed
+head_only,Head only,1,0.6949788380146209,0.6949788380146209,0.6949018853405156,2,,1804,456,Cancer,124
+head_only,Head only,2,0.7074967837511208,0.7074967837511208,0.7072628747417256,2,,1807,453,Cancer,125
+head_only,Head only,3,0.7020351125806961,0.7020351125806961,0.7016808376633603,2,,1809,451,Cancer,126
+head_only,Head only,4,0.7415885962718581,0.7415885962718581,0.7415501221553201,2,,1804,456,Cancer,127
+head_only,Head only,5,0.7345373376623376,0.7345373376623376,0.7345170454545455,2,,1816,444,Cancer,128
+last_2_blocks,Last 2 blocks,1,0.7426702577914583,0.7426702577914583,0.7369372835706041,26,blocks.10;blocks.11,1804,456,Cancer,124
+last_2_blocks,Last 2 blocks,2,0.7349421075201747,0.7349421075201747,0.7321546918248801,26,blocks.10;blocks.11,1807,453,Cancer,125
+last_2_blocks,Last 2 blocks,3,0.7170524326877658,0.7170524326877658,0.7111084868524642,26,blocks.10;blocks.11,1809,451,Cancer,126
+last_2_blocks,Last 2 blocks,4,0.7827366639093549,0.7827366639093549,0.7816978627628264,26,blocks.10;blocks.11,1804,456,Cancer,127
+last_2_blocks,Last 2 blocks,5,0.7836647727272728,0.7836647727272728,0.7779829545454546,26,blocks.10;blocks.11,1816,444,Cancer,128
+last_4_blocks,Last 4 blocks,1,0.7261254328587918,0.7261254328587918,0.7125817622162371,50,blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,124
+last_4_blocks,Last 4 blocks,2,0.7482164438033604,0.7482164438033604,0.73014697282757,50,blocks.8;blocks.9;blocks.10;blocks.11,1807,453,Cancer,125
+last_4_blocks,Last 4 blocks,3,0.7219335537710596,0.7219335537710596,0.7205361360415683,50,blocks.8;blocks.9;blocks.10;blocks.11,1809,451,Cancer,126
+last_4_blocks,Last 4 blocks,4,0.7881038031664198,0.7881038031664198,0.767539387876806,50,blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,127
+last_4_blocks,Last 4 blocks,5,0.7819399350649351,0.7819399350649351,0.7693993506493506,50,blocks.8;blocks.9;blocks.10;blocks.11,1816,444,Cancer,128
+last_6_blocks,Last 6 blocks,1,0.7537899191996922,0.7537899191996922,0.7383224317045016,74,blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,124
+last_6_blocks,Last 6 blocks,2,0.7561693501228022,0.7561693501228022,0.7292503216248879,74,blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1807,453,Cancer,125
+last_6_blocks,Last 6 blocks,3,0.7360061407652339,0.7360061407652339,0.7254959848842703,74,blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1809,451,Cancer,126
+last_6_blocks,Last 6 blocks,4,0.799453667545159,0.799453667545159,0.7935382721274262,74,blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,127
+last_6_blocks,Last 6 blocks,5,0.7957386363636363,0.7957386363636363,0.7847199675324676,74,blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1816,444,Cancer,128
+last_8_blocks,Last 8 blocks,1,0.7495382839553674,0.7495382839553674,0.7417468257021932,98,blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,124
+last_8_blocks,Last 8 blocks,2,0.7551167595805232,0.7551167595805232,0.742524657908074,98,blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1807,453,Cancer,125
+last_8_blocks,Last 8 blocks,3,0.7485238545111007,0.7485238545111007,0.7250433002676743,98,blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1809,451,Cancer,126
+last_8_blocks,Last 8 blocks,4,0.8028201527422427,0.8028201527422427,0.7966642940961468,98,blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,127
+last_8_blocks,Last 8 blocks,5,0.821956168831169,0.821956168831169,0.7900162337662338,98,blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1816,444,Cancer,128
+last_10_blocks,Last 10 blocks,1,0.758964986533282,0.758964986533282,0.7426125432858792,122,blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,124
+last_10_blocks,Last 10 blocks,2,0.7508674125765077,0.7508674125765077,0.7322521539121281,122,blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1807,453,Cancer,125
+last_10_blocks,Last 10 blocks,3,0.7516336010077154,0.7516336010077154,0.7463391591875295,122,blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1809,451,Cancer,126
+last_10_blocks,Last 10 blocks,4,0.8046861473943404,0.8046861473943404,0.7876517322970972,122,blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,127
+last_10_blocks,Last 10 blocks,5,0.8003043831168832,0.8003043831168832,0.7825487012987014,122,blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1816,444,Cancer,128
+all_blocks,All blocks,1,0.7590034628703348,0.7590034628703348,0.7556944978838014,146,blocks.0;blocks.1;blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,124
+all_blocks,All blocks,2,0.7576312814315231,0.7576312814315231,0.7477291333671203,146,blocks.0;blocks.1;blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1807,453,Cancer,125
+all_blocks,All blocks,3,0.7627735789639427,0.7627735789639427,0.7280743190048811,146,blocks.0;blocks.1;blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1809,451,Cancer,126
+all_blocks,All blocks,4,0.8043206432872285,0.8043206432872285,0.7886520593270876,146,blocks.0;blocks.1;blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1804,456,Cancer,127
+all_blocks,All blocks,5,0.8180194805194806,0.8180194805194806,0.7937297077922078,146,blocks.0;blocks.1;blocks.2;blocks.3;blocks.4;blocks.5;blocks.6;blocks.7;blocks.8;blocks.9;blocks.10;blocks.11,1816,444,Cancer,128
