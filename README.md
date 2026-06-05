@@ -45,7 +45,7 @@ Each model folder contains:
 - `selection_process/`: cross-validation logs, AUC summaries, and process plots used to select the final setting.
 - `final_results/`: final test-set metrics, training log, resource table, and explainability outputs.
 
-For ResNet50, `models/resnet50/selection_process/` includes the full selection chain: the preprocessed all-strategy run, the dropout 0.3 follow-up, and the dropout 0.4 final validation check.
+For ResNet50, `models/resnet50/selection_process/` includes the full selection chain: the initial no-preprocessing baseline, the ResNet-preprocessed all-strategy run, the dropout 0.3 follow-up, and the dropout 0.4 final validation check. The ResNet50 selection README explains what `preprocess` changed in the input pipeline.
 
 The data split code and the patient-level split rationale are documented in `data_splits/README.md`.
 
