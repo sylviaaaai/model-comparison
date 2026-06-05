@@ -1,7 +1,5 @@
 # Supervisor Reading Guide
 
-This repository is intended as a compact final experiment package rather than a full raw-workspace dump.
-
 ## Recommended Reading Order
 
 1. `README.md`
