@@ -1,0 +1,3 @@
+unfreeze_name,unfreeze_label,folds_completed,mean_val_auc,std_val_auc,min_val_auc,max_val_auc,trainable_base_layers,description
+conv3_5,conv3-5,5,0.7320072369709515,0.02985557238956507,0.69524817237399,0.7751826298701299,94,Unfreeze ResNet50 conv3 through conv5 blocks.
+all_non_bn,All non-BN,5,0.729909949874153,0.03502637510780058,0.6917664028692838,0.7692573051948053,122,Unfreeze all non-BatchNorm ResNet50 layers.

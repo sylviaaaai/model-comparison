@@ -1,0 +1,68 @@
+[
+  {
+    "unfreeze_name": "head_only",
+    "unfreeze_label": "Head only",
+    "folds_completed": 5,
+    "mean_val_auc": 0.6368860402647172,
+    "std_val_auc": 0.0359351909686223,
+    "min_val_auc": 0.5865073486413785,
+    "max_val_auc": 0.6869318181818183,
+    "trainable_base_layers": 0,
+    "description": "ResNet50 frozen; train classifier head only."
+  },
+  {
+    "unfreeze_name": "conv5",
+    "unfreeze_label": "conv5",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7064946010777591,
+    "std_val_auc": 0.026105759588534998,
+    "min_val_auc": 0.6767767338505322,
+    "max_val_auc": 0.7455357142857142,
+    "trainable_base_layers": 22,
+    "description": "Unfreeze ResNet50 conv5 block."
+  },
+  {
+    "unfreeze_name": "conv4_5",
+    "unfreeze_label": "conv4-5",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7265770608949045,
+    "std_val_auc": 0.03164442927486309,
+    "min_val_auc": 0.6970565602154675,
+    "max_val_auc": 0.7680397727272728,
+    "trainable_base_layers": 65,
+    "description": "Unfreeze ResNet50 conv4 and conv5 blocks."
+  },
+  {
+    "unfreeze_name": "conv3_5",
+    "unfreeze_label": "conv3-5",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7287899250214862,
+    "std_val_auc": 0.029201260831316612,
+    "min_val_auc": 0.7007695267410543,
+    "max_val_auc": 0.7720982142857143,
+    "trainable_base_layers": 94,
+    "description": "Unfreeze ResNet50 conv3 through conv5 blocks."
+  },
+  {
+    "unfreeze_name": "conv2_5",
+    "unfreeze_label": "conv2-5",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7255886035586148,
+    "std_val_auc": 0.029686721542380515,
+    "min_val_auc": 0.7015905812638883,
+    "max_val_auc": 0.7736201298701298,
+    "trainable_base_layers": 116,
+    "description": "Unfreeze ResNet50 conv2 through conv5 blocks."
+  },
+  {
+    "unfreeze_name": "all_non_bn",
+    "unfreeze_label": "All non-BN",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7266552610719579,
+    "std_val_auc": 0.025247561888600615,
+    "min_val_auc": 0.7006348595613698,
+    "max_val_auc": 0.7675730519480519,
+    "trainable_base_layers": 122,
+    "description": "Unfreeze all non-BatchNorm ResNet50 layers."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "unfreeze_name": "conv3_5",
+    "unfreeze_label": "conv3-5",
+    "folds_completed": 5,
+    "mean_val_auc": 0.7320072369709515,
+    "std_val_auc": 0.02985557238956507,
+    "min_val_auc": 0.69524817237399,
+    "max_val_auc": 0.7751826298701299,
+    "trainable_base_layers": 94,
+    "description": "Unfreeze ResNet50 conv3 through conv5 blocks."
+  },
+  {
+    "unfreeze_name": "all_non_bn",
+    "unfreeze_label": "All non-BN",
+    "folds_completed": 5,
+    "mean_val_auc": 0.729909949874153,
+    "std_val_auc": 0.03502637510780058,
+    "min_val_auc": 0.6917664028692838,
+    "max_val_auc": 0.7692573051948053,
+    "trainable_base_layers": 122,
+    "description": "Unfreeze all non-BatchNorm ResNet50 layers."
+  }
+]
