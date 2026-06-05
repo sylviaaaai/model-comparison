@@ -53,9 +53,7 @@ The summary folder contains:
 
 - `best_final_models_comparison.csv/.md`
 - `best_model_val_auc_ranges.csv/.md`
-- `final_performance_comparison.csv/.md`
 - `final_resource_comparison.csv/.md`
-- `model_selection_auc_summary.csv/.md`
 
 Explainability figures are included inside each model's `final_results/` directory:
 
