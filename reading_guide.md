@@ -10,15 +10,24 @@
 
    Main final comparison across ResNet50, ViT-B/16, ConvNeXt-Base, and Swin-Base.
 
-3. `data_splits/README.md`
+3. `summary/four_model_comparison_tables/image_level_patient_bootstrap_ci_summary.md`
+
+   Final image-level performance with patient-level bootstrap 95% confidence intervals.
+
+4. `summary/four_model_comparison_tables/patient_level_bootstrap_ci_README.md`
+
+   Explains how the confidence intervals were computed and why patients were
+   used as the bootstrap unit.
+
+5. `data_splits/README.md`
 
    Explains the patient-level split strategy and how leakage was avoided.
 
-4. `models/<model_name>/selection_process/`
+6. `models/<model_name>/selection_process/`
 
    Cross-validation logs and plots used for model selection.
 
-5. `models/<model_name>/final_results/`
+7. `models/<model_name>/final_results/`
 
    Final test-set results, training logs, resource summaries, and explainability figures.
 
