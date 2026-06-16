@@ -61,7 +61,7 @@ The summary folder contains:
 - `best_final_models_comparison.csv/.md`
 - `best_model_val_auc_ranges.csv/.md`
 - `final_resource_comparison.csv/.md`
-- `image_level_patient_bootstrap_ci_summary.csv/.md`
+- `image_level_patient_bootstrap_ci_summary.md`
 - `patient_level_bootstrap_ci_README.md`
 
 Explainability figures are included inside each model's `final_results/` directory:
