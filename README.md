@@ -13,7 +13,7 @@ For a quick review path, see `reading_guide.md`.
 | ResNet50 | conv3_5, dropout=0.4, batch size=16 | 0.7337 +/- 0.0356 | 0.7016 | [0.6239, 0.7769] | 0.6241 | 0.6202 |
 | ViT-B/16 | all blocks, dropout=0.4, batch size=16 | 0.7803 +/- 0.0286 | 0.8190 | [0.7545, 0.8773] | 0.7759 | 0.7547 |
 | ConvNeXt-Base | stage3_4, dropout=0.4, batch size=32 | 0.7883 +/- 0.0309 | 0.7910 | [0.7298, 0.8468] | 0.7276 | 0.7228 |
-| Swin-Base | stage2_4, dropout=0.4, batch size=16 | 0.7846 +/- 0.0373 | 0.7813 | [0.7101, 0.8452] | 0.7621 | 0.7229 |
+| Swin-Base | stage2_4, dropout=0.4, batch size=16 | 0.7846 +/- 0.0373 | 0.7813 | [0.7101, 0.8450] | 0.7621 | 0.7229 |
 
 The full comparison tables are in `summary/four_model_comparison_tables/`.
 That folder also includes `image_level_patient_bootstrap_ci_summary.csv/.md`,
