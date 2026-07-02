@@ -1,0 +1,9 @@
+scope,model,metric,TP_n,TP_mean,TP_median,FN_n,FN_mean,FN_median,FP_n,FP_mean,FP_median,TN_n,TN_mean,TN_median
+main_yes,ResNet50,dice_top20,70,0.498,0.508,37,0.294,0.340,32,0.475,0.478,44,0.287,0.312
+main_yes,ViT_B16,dice_top20,76,0.138,0.136,31,0.086,0.078,11,0.126,0.127,65,0.103,0.102
+main_yes,ConvNeXt_Base,dice_top20,74,0.484,0.487,33,0.354,0.386,18,0.456,0.478,58,0.368,0.389
+main_yes,Swin_Base,dice_top20,65,0.464,0.472,42,0.196,0.158,6,0.422,0.430,70,0.173,0.142
+sensitivity_yes_cautious,ResNet50,dice_top20,83,0.486,0.503,58,0.302,0.326,50,0.483,0.483,88,0.263,0.300
+sensitivity_yes_cautious,ViT_B16,dice_top20,95,0.129,0.118,46,0.083,0.078,18,0.129,0.138,120,0.096,0.091
+sensitivity_yes_cautious,ConvNeXt_Base,dice_top20,98,0.472,0.482,43,0.360,0.386,35,0.458,0.477,103,0.379,0.391
+sensitivity_yes_cautious,Swin_Base,dice_top20,85,0.455,0.467,56,0.206,0.174,10,0.436,0.462,128,0.179,0.154

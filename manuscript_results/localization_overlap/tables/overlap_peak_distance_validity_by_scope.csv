@@ -1,0 +1,17 @@
+model,scope,n_images,n_valid_peak_distance,n_invalid,reason
+ResNet50,main_yes,183,167,16,Peak distance was computed only for valid non-zero saliency maps.
+ViT_B16,main_yes,183,183,0,
+ConvNeXt_Base,main_yes,183,183,0,
+Swin_Base,main_yes,183,183,0,
+ResNet50,sensitivity_yes_cautious,279,250,29,Peak distance was computed only for valid non-zero saliency maps.
+ViT_B16,sensitivity_yes_cautious,279,279,0,
+ConvNeXt_Base,sensitivity_yes_cautious,279,279,0,
+Swin_Base,sensitivity_yes_cautious,279,279,0,
+ResNet50,excluded_no,11,11,0,
+ViT_B16,excluded_no,11,11,0,
+ConvNeXt_Base,excluded_no,11,11,0,
+Swin_Base,excluded_no,11,11,0,
+ResNet50,all_images,290,261,29,Peak distance was computed only for valid non-zero saliency maps.
+ViT_B16,all_images,290,290,0,
+ConvNeXt_Base,all_images,290,290,0,
+Swin_Base,all_images,290,290,0,
