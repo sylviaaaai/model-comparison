@@ -309,10 +309,6 @@ def main() -> None:
         save_attention_panel(original, heatmap, output_path, title, cmap_name=args.cmap)
         print(f"Saved {group}: {output_path}")
 
-        if all(value >= args.max_per_group for value in counts.values()):
-            print("Reached max-per-group for all groups.")
-            break
-
     args.output_dir.mkdir(parents=True, exist_ok=True)
     summary_path = args.output_dir / "summary.csv"
     with summary_path.open("w", newline="", encoding="utf-8") as f:

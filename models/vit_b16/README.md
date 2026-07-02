@@ -179,3 +179,7 @@ python models/vit_b16/tools/attention_rollout_vit_b16_torch.py \
 
 These maps are interpretation aids, not lesion segmentation masks.
 
+For the lesion-mask overlap experiment, the primary ViT saliency method is the
+standard `attention_rollout/` output with `discard_ratio = 0.0`. The
+`attention_rollout_magma_discard09/` folder is retained as an auxiliary sharper
+visualization, not as the current overlap-analysis path.

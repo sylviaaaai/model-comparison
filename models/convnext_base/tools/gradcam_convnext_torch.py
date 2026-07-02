@@ -145,11 +145,14 @@ class GradCam:
         self.forward_handle.remove()
         self.backward_handle.remove()
 
-    def __call__(self, image_batch: torch.Tensor, device: torch.device) -> tuple[np.ndarray, float]:
+    def __call__(self, image_batch: torch.Tensor, device: torch.device, threshold: float) -> tuple[np.ndarray, float, int]:
         self.model.zero_grad(set_to_none=True)
         logits = self.model(image_batch.to(device)).reshape(-1)
-        score = logits[0]
-        score.backward()
+        cancer_logit = logits[0]
+        probability = torch.sigmoid(cancer_logit.detach()).item()
+        target_class_value = int(probability >= threshold)
+        target_score = cancer_logit if target_class_value == 1 else -cancer_logit
+        target_score.backward()
 
         if self.activations is None or self.gradients is None:
             raise RuntimeError("Grad-CAM hooks did not capture activations and gradients.")
@@ -163,8 +166,7 @@ class GradCam:
         cam = cam[0, 0]
         cam = cam - cam.min()
         cam = cam / (cam.max() + 1e-8)
-        probability = torch.sigmoid(score.detach()).item()
-        return cam.cpu().numpy(), float(probability)
+        return cam.cpu().numpy(), float(probability), target_class_value
 
 
 def save_gradcam_panel(
@@ -232,9 +234,8 @@ def main() -> None:
                 continue
 
             original, image_batch = load_image(image_path, transform)
-            heatmap, probability = gradcam(image_batch, device)
+            heatmap, probability, predicted = gradcam(image_batch, device, args.threshold)
             label = int(record["label"])
-            predicted = int(probability >= args.threshold)
             group = group_name(label, predicted)
 
             if counts[group] < args.max_per_group:
