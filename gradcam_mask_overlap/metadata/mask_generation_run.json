@@ -1,0 +1,15 @@
+{
+  "run_id": "metadata_bootstrap_20260625T113330Z",
+  "run_type": "metadata_bootstrap",
+  "created_utc": "2026-06-25T11:33:30.543201+00:00",
+  "test_split": "/mnt/e/SW\u6574\u5408/model-comparison-repo/data_splits/final_80_10_10/final_test_images.csv",
+  "roi_size": 224,
+  "mask_threshold": 127,
+  "padding": 0.1,
+  "crop_rule": "Reproduce original ROI script: threshold _Mask.jpg, boundingRect, square crop with padding=0.1, resize to 224.",
+  "primary_mask_rule": "Use _Mask.jpg only to match the original ROI generation script.",
+  "multi_mask_rule": "_MASK2 is recorded but ignored in the primary analysis.",
+  "image_resize_interpolation": "INTER_LINEAR",
+  "mask_resize_interpolation": "INTER_NEAREST",
+  "notes": "Prediction manifest uses the full patient-level bootstrap CI prediction files. Saliency manifest uses existing Grad-CAM/attention summary CSVs and may be a subset until raw maps are fully generated."
+}

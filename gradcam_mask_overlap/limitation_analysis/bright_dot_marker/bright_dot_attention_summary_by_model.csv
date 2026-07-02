@@ -1,0 +1,5 @@
+model,n_marker_images,attends_marker,does_not_attend_marker,attention_rate_percent,TP,FN,FP,TN,benign_marker_n,benign_marker_attends,benign_marker_attention_rate_percent,benign_FP,benign_TN,benign_FP_attends_marker,benign_FP_attention_rate_percent,malignant_marker_n,malignant_marker_attends,malignant_marker_attention_rate_percent,malignant_TP,malignant_FN,malignant_FN_attends_marker,malignant_FN_attention_rate_percent
+ResNet50,25,12,13,48.0,16,3,3,3,6,5,83.3,3,3,3,100.0,19,7,36.8,16,3,2,66.7
+ViT_B16,25,21,4,84.0,16,3,2,4,6,5,83.3,2,4,2,100.0,19,16,84.2,16,3,3,100.0
+ConvNeXt_Base,25,23,2,92.0,17,2,5,1,6,6,100.0,5,1,5,100.0,19,17,89.5,17,2,2,100.0
+Swin_Base,25,13,12,52.0,17,2,2,4,6,5,83.3,2,4,2,100.0,19,8,42.1,17,2,1,50.0

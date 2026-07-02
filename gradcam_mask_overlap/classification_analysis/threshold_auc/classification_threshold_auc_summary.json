@@ -1,0 +1,29 @@
+{
+  "analysis": "classification_threshold_and_paired_auc",
+  "threshold_policy": "select_threshold_on_final_validation_split_by_max_youden_j_then_lock_for_final_test",
+  "test_auc_comparison": "patient_level_paired_bootstrap",
+  "n_bootstrap": 5000,
+  "seed": 20260702,
+  "validation_dir": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/validation_predictions_raw",
+  "test_dir": "/mnt/e/SW\u6574\u5408/results/patient_level_bootstrap_ci",
+  "output_dir": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc",
+  "validation_predictions_long_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_validation_predictions_long.csv",
+  "test_predictions_long_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_test_predictions_long.csv",
+  "threshold_sweep_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_validation_threshold_sweep.csv",
+  "selected_thresholds_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_validation_selected_thresholds.csv",
+  "locked_test_performance_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_test_locked_threshold_performance.csv",
+  "fixed_0p5_test_performance_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_test_fixed_0p5_performance.csv",
+  "auc_by_model_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_test_auc_by_model.csv",
+  "auc_pairwise_csv": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_test_auc_pairwise_bootstrap.csv",
+  "summary_md": "/mnt/e/SW\u6574\u5408/gradcam_mask_overlap/classification_analysis/threshold_auc/classification_threshold_auc_summary.md",
+  "validation_n_images": 280,
+  "test_n_images": 290,
+  "validation_n_patients": 135,
+  "test_n_patients": 135,
+  "models": {
+    "resnet50": "ResNet50",
+    "vit_b16": "ViT-B/16",
+    "convnext_base": "ConvNeXt-Base",
+    "swin_base": "Swin-Base"
+  }
+}

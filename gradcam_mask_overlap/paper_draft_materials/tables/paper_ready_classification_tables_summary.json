@@ -1,0 +1,13 @@
+{
+  "run_id": "paper_ready_classification_tables_20260702T065812Z",
+  "created_utc": "2026-07-02T06:58:12.866791+00:00",
+  "source_classification_dir": "/mnt/e/SW整合/gradcam_mask_overlap/classification_analysis/threshold_auc",
+  "outputs": {
+    "validation_thresholds_csv": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_classification_validation_thresholds_readable.csv",
+    "locked_thresholds_csv": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_classification_test_locked_thresholds_readable.csv",
+    "fixed_0p5_csv": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_classification_test_fixed_0p5_readable.csv",
+    "paired_auc_csv": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_classification_paired_auc_readable.csv",
+    "markdown": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_classification_readable_tables.md",
+    "summary_json": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/paper_ready_classification_tables_summary.json"
+  }
+}

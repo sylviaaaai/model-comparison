@@ -1,0 +1,13 @@
+{
+  "run_id": "overlap_model_summary_20260629T114025Z",
+  "created_utc": "2026-06-29T11:40:25.109342+00:00",
+  "metrics_rows": 15080,
+  "continuous_summary_rows": 4,
+  "threshold_summary_rows": 52,
+  "best_fixed_threshold_rows": 4,
+  "outputs": {
+    "continuous": "/mnt/e/SW整合/gradcam_mask_overlap/metadata/overlap_continuous_model_summary.csv",
+    "threshold": "/mnt/e/SW整合/gradcam_mask_overlap/metadata/overlap_threshold_model_summary.csv",
+    "best_fixed": "/mnt/e/SW整合/gradcam_mask_overlap/metadata/overlap_best_fixed_thresholds.csv"
+  }
+}

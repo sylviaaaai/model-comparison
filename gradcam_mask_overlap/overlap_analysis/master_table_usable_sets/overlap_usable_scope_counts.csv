@@ -1,0 +1,5 @@
+scope,n_images,n_malignant,n_benign,usable_yes,usable_cautious,usable_no,marker_positive,marker_negative
+main_yes,183,107,76,183,0,0,18,165
+sensitivity_yes_cautious,279,141,138,183,96,0,22,257
+excluded_no,11,6,5,0,0,11,3,8
+all_images,290,147,143,183,96,11,25,265

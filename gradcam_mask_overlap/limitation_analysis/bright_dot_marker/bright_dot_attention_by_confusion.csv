@@ -1,0 +1,17 @@
+model,pred_type,n,attends_marker,does_not_attend_marker,attention_rate_percent
+ResNet50,TP,16,5,11,31.2
+ResNet50,FN,3,2,1,66.7
+ResNet50,FP,3,3,0,100.0
+ResNet50,TN,3,2,1,66.7
+ViT_B16,TP,16,13,3,81.2
+ViT_B16,FN,3,3,0,100.0
+ViT_B16,FP,2,2,0,100.0
+ViT_B16,TN,4,3,1,75.0
+ConvNeXt_Base,TP,17,15,2,88.2
+ConvNeXt_Base,FN,2,2,0,100.0
+ConvNeXt_Base,FP,5,5,0,100.0
+ConvNeXt_Base,TN,1,1,0,100.0
+Swin_Base,TP,17,7,10,41.2
+Swin_Base,FN,2,1,1,50.0
+Swin_Base,FP,2,2,0,100.0
+Swin_Base,TN,4,3,1,75.0
