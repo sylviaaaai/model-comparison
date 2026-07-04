@@ -1,9 +1,0 @@
-{
-  "run_id": "paper_ready_subgroup_tables_20260702T061056Z",
-  "created_utc": "2026-07-02T06:10:56.547243+00:00",
-  "source_subgroup_dir": "/mnt/e/SW整合/gradcam_mask_overlap/overlap_analysis/subgroup_analyses",
-  "outputs": {
-    "true_label_key_metrics": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_subgroup_true_label_key_metrics.csv",
-    "confusion_group_dice": "/mnt/e/SW整合/gradcam_mask_overlap/paper_draft_materials/tables/tableS_subgroup_confusion_group_dice.csv"
-  }
-}

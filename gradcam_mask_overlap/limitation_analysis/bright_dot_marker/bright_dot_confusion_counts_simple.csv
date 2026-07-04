@@ -1,5 +1,0 @@
-model_name,n_bright_dot_images,TP,FN,FP,TN
-resnet50,25,16,3,3,3
-vit_b16,25,16,3,2,4
-convnext_base,25,17,2,5,1
-swin_base,25,17,2,2,4

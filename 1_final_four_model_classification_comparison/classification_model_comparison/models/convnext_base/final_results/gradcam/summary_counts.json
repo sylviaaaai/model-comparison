@@ -1,0 +1,6 @@
+{
+  "correct_benign": 5,
+  "correct_cancer": 5,
+  "false_positive": 5,
+  "false_negative": 5
+}
