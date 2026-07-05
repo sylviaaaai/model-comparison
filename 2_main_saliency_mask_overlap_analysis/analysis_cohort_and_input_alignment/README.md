@@ -32,7 +32,7 @@ Recommended reading order:
 2. `manual_mask_usability_and_analysis_cohort.md`
 3. `results/overlap_usable_scope_counts.csv`
 4. `results/test_image_master_table.csv`
-5. `qualitative_saliency_examples_across_mask_types_and_artifacts/README.md`
+5. `qualitative_saliency_examples_across_mask_types_and_artifacts/panels_by_case_type_final/README.md`
 
 
 ## Key Design Choices
