@@ -1,8 +1,11 @@
+# Minimal unpinned dependency list for auditing scripts.
+# See environment_notes.md for hardware context and version-pinning status.
 numpy
 pandas
 scikit-learn
 matplotlib
 Pillow
+opencv-python
 torch
 torchvision
 timm

@@ -91,6 +91,55 @@ This folder contains:
 `image_level_patient_bootstrap_ci_summary.csv/.md` reports final test
 image-level performance with patient-level bootstrap 95% confidence intervals.
 
+## Test Confidence Intervals
+
+The test confidence intervals in
+`results/four_model_comparison_tables/image_level_patient_bootstrap_ci_summary.csv`
+were computed on the locked final test set:
+
+```text
+290 test images
+135 test patients
+147 malignant images
+143 benign images
+```
+
+Although the reported classification metrics are image-level metrics, the
+bootstrap resampling unit is the patient. For each bootstrap draw, patients are
+sampled with replacement from the final test patient set, and all test images
+belonging to the sampled patients are included in that draw. The image-level
+metrics are then recomputed on the resampled image set.
+
+This patient-level bootstrap design is used because multiple images can come
+from the same patient and should not be treated as fully independent
+observations. The reported 95% confidence intervals are percentile intervals
+from 5000 valid patient-level bootstrap draws.
+
+The same patient-level resampling principle is used in the paired AUC analysis
+under:
+
+```text
+../validation_selected_threshold_and_paired_auc_analysis/paired_auc_analysis/
+```
+
+There, the same sampled patients are used for both models in each pair so that
+the paired structure of the test set is preserved.
+
+## Resource Table and Hardware
+
+`results/four_model_comparison_tables/final_resource_comparison.csv/.md`
+summarizes the final resource measurements for the four selected models,
+including parameter counts, model size, training time, average epoch time, test
+inference time, test milliseconds per step, epochs run, batch size, and final
+fine-tuning setting.
+
+The resource measurements were collected from the final model runs under the
+same local experimental hardware environment, using an NVIDIA GeForce RTX 5090
+GPU. Because the resource table is intended for within-project model
+comparison, the timings should be interpreted as relative measurements under
+this shared RTX 5090 environment rather than as hardware-independent runtime
+benchmarks.
+
 ## Explainability Figures
 
 Example explainability figures are included inside each model's
