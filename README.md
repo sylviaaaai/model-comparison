@@ -142,7 +142,7 @@ The scripts used for each analysis are stored beside the corresponding result fo
 
 This repository is not a single-command reproduction package. Model training, saliency export, manual mask review, overlap computation, and manuscript-table generation were performed as separate experiment stages. The repository preserves the cleaned outputs and scripts needed to audit each stage.
 
-The Python package list used during analysis is summarized in `requirements.txt`. Some training scripts depend on framework-specific TensorFlow/Keras or PyTorch/timm environments.
+The Python package list used during analysis is summarized in `requirements.txt`. Environment and hardware notes are summarized in [environment_notes.md](environment_notes.md), including the RTX 5090 resource-timing context and the current status of package-version pinning. Some training scripts depend on framework-specific TensorFlow/Keras or PyTorch/timm environments.
 
 ## Repository Status
 

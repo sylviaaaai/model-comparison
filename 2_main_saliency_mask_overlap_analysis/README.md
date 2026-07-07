@@ -67,6 +67,7 @@ The paired analysis supports this ordering, especially when ConvNeXt-Base is com
 
 - Mask usability matters. The primary result uses strict `usable_for_overlap == yes` masks, and `sensitivity_yes_cautious` (`yes+cautious`) is used as a sensitivity analysis.
 - ResNet50 has zero-saliency cases. These mainly affect peak-distance metrics because no saliency peak exists for all-zero maps.
+- ViT-B/16 uses a different explanation method. Its overlap metrics are based on attention rollout, whereas ResNet50, ConvNeXt-Base, and Swin-Base use Grad-CAM. Therefore, lower ViT-B/16 overlap should not be interpreted as proof that ViT-B/16 did not attend to the lesion; it may partly reflect that attention rollout and Grad-CAM are not directly equivalent saliency methods.
 - Subgroup analyses are descriptive. FP/FN denominators can be small, and model-specific confusion groups are not the same image sets across models.
 - Marker/bright-dot cases are tracked separately. They are not used to define mask usability, but they are analyzed as a limitation and artifact-sensitivity check.
 - Saliency overlap should be interpreted as spatial alignment evidence, not causal proof of which pixels caused the model's prediction.
